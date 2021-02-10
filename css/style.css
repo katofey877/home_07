@@ -1,0 +1,330 @@
+@font-face {
+	font-family: "Proxima Nova Rg";
+	src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+		url("../fonts/ProximaNova-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Proxima Nova Rg";
+	src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ________________Обнуление_________________ */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	font-family: "Proxima Nova Rg";
+}
+/* ___________блок header___________________________ */
+.header {
+	background: #373a3c;
+	max-height: 60px;
+	padding: 15px 0;
+}
+.container {
+	max-width: 1200px;
+	margin: 0px auto;
+}
+.header__nav li {
+	vertical-align: middle;
+}
+.header__item-logo {
+	display: inline-block;
+	width: 96px;
+	height: 30px;
+	background-image: url("../img/Group.png");
+}
+
+.header__list {
+	font-size: 0;
+}
+.header__list li {
+	margin-left: 45px;
+}
+.header__item.first {
+	margin-left: 288px;
+	background: url("../img/galg.png") 100% 100% no-repeat;
+	padding-right: 18px;
+}
+.header__item.icon {
+	background: url("../img/galg.png") 100% 100% no-repeat;
+	padding-right: 18px;
+}
+.header__item.icon2 {
+	background: url("../img/galg.png") 100% 100% no-repeat, url("../img/Shape.png") 0 0px no-repeat;
+	padding-right: 18px;
+	padding-left: 25px;
+}
+.header__item.searcg {
+	width: 209px;
+	height: 38px;
+	background-color: #fff;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 10px 0;
+	border-radius: 5px;
+	
+}
+li.header__item {
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.header__link {
+	color: rgba(255, 255, 255, 1);
+}
+.header__link-search {
+	color: #43576652;
+}
+/* ___________блок header__slider___________________________ */
+.header__slider {
+	height: 650px;
+	background: url("../img/Star-Wars-Battlefront-II-combat.png") center/cover no-repeat;
+	text-align: right;
+}
+.header__slider-items {
+	max-width: 320px;
+	display: inline-block;
+	padding-top: 206px;
+	margin-right: 150px;
+	text-align: left;
+}
+.slider__items-title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 120%;
+	color: #ffffff;
+}
+.slider__items-subtitle {
+	font-size: 24px;
+	line-height: 120%;
+	color: #ffffff;
+	margin-bottom: 134px;
+}
+.btn {
+	display: inline-block;
+	max-width: 136px;
+	line-height: 130%;
+	color: #ffffff;
+	padding: 9px 24px 9px 19px;
+	background: #8dd83d;
+	border-radius: 4px;
+	
+}
+.btn.dark__btn {
+	display: inline-block;
+	max-width: 148px;
+	line-height: 130%;
+	color: #ffffff;
+	padding: 9px 19px 9px 19px;
+	background: #686c6f;
+	border-radius: 4px;
+	margin-left: 13px;
+}
+/* ___________блок best___________________________ */
+.best {
+	background-color: #373a3c;
+}
+.container {
+}
+.best__title {
+	width: 100%;
+	padding-top: 62px;
+	text-align: center;
+}
+.best__title-img {
+	max-width: 100%;
+	margin-bottom: 16px;
+}
+.best__title-title {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 120%;
+	color: #ffffff;
+}
+.best__title-subtitle {
+	font-size: 36px;
+	line-height: 120%;
+	color: #ffffff;
+	margin-bottom: 43px;
+}
+.best__cards {
+	margin-bottom: 160px;
+	display: inline-block;
+	outline: 2px solid #8dd83d;
+}
+.best__cards.one {
+	margin-left: 27px;
+}
+.best__cards.two {
+	margin: 0 64px;
+}
+.best__cards.three {
+	margin-right: 27px;
+}
+.cards__items {
+	max-width: 320px;
+	background-color: #ffffff;
+}
+.images {
+	width: 100%;
+	min-height: 180px;
+	background: url("../img/xbox-one-x.png") center/cover no-repeat;
+}
+.images.images3 {
+	width: 100%;
+	min-height: 180px;
+	background: url("../img/mixer-logo.png") center no-repeat;
+}
+.images.images2 {
+	width: 100%;
+	min-height: 180px;
+	background: url("../img/games.png") center no-repeat;
+}
+.cards__item {
+	padding: 20px;
+}
+.cards__text {
+	font-size: 18px;
+	line-height: 120%;
+	color: #435766;
+	margin-bottom: 13px;
+}
+.cards__link {
+	max-width: 220px;
+	display: inline-block;
+	font-size: 24px;
+	line-height: 120%;
+	color: #435766;
+	margin-bottom: 30px;
+}
+.cards__btn {
+	display: inline-block;
+	max-width: 280px;
+	padding: 20px 26px;
+	color: #ffffff;
+	background-color: #8dd83d;
+}
+/* ___________блок pad ______________________________ */
+.pad {
+	background: url("../img/pad.png") 0 0 / cover no-repeat;
+	padding: 114px 0px 145px 166px;
+}
+.container {
+}
+.pad__content {
+	max-width: 533px;
+}
+.pad__title {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 120%;
+	color: #ffffff;
+	margin-bottom: 9px;
+}
+.pad__subtitle {
+	font-size: 24px;
+	line-height: 120%;
+	color: #ffffff;
+	margin-bottom: 37px;
+}
+.pad__items {
+}
+.pad__link {
+	display: inline-block;
+	line-height: 120%;
+	padding: 20px 50px;
+	color: #ffffff;
+	background: #8dd83d;
+	border-radius: 10px;
+	margin-left: 0;
+}
+.pad__link.grey {
+	background-color: #686c6f;
+	margin-left: 15px;
+	padding: 20px 25px;
+}
+/* ___________блок footer________________ */
+.footer {
+	background: url("../img/Rectangle.png") center/cover no-repeat;
+}
+.black__opacity {
+	max-width: 100%;
+	max-height: 100%;
+	background-color: black;
+	opacity: 0.5;
+	padding-top: 58px;
+	padding-bottom: 20px;
+}
+.container {
+}
+.footer__content {
+	max-width: 320px;
+	display: inline-block;
+}
+.footer__title {
+	font-weight: bold;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 120%;
+	color: #7dd42f;
+	margin-bottom: 34px;
+	border-bottom: 3px solid #7dd42f;
+	margin-left: 20px;
+}
+.footer__list li {
+	font-size: 14px;
+	margin-bottom: 29px;
+	background: url("../img/galg.png") 0px 5px / 15px no-repeat;
+	padding-left: 20px;
+}
+.footer__text {
+}
+.footer__link {
+	color: #ffffff;
+	line-height: 120%;
+}
+.footer__content.footer__content2 {
+	margin-left: 335px;
+}
